@@ -1,0 +1,44 @@
+main {
+  text-align: center;
+}
+
+main table {
+  width: 100%;
+}
+
+main table tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main table tr th {
+  width: 100px;
+  height: 60px;
+  border: solid rgba(235, 82, 27, 0.644) 2px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main table tr td {
+  width: 100px;
+  padding: 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main table tr td input {
+  border: none;
+  background-color: rgba(235, 82, 27, 0.644);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+main h1 {
+  padding: 20px;
+}

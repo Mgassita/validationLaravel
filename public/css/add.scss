@@ -1,0 +1,29 @@
+main {
+    width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+    form {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 60%;
+        align-items: center;
+        div {
+            width:100%;
+            padding: 10px 0;
+            display: flex;
+            flex-direction: column;
+            input {
+                border: none;
+                padding: 12px 90px;
+                border-radius: 40px;
+                box-shadow: inset 5px 10px 10px rgb(194, 194, 194);
+                text-align: center;
+            }
+            label {
+                margin-right: 10px;
+            }
+        }
+    }
+}
